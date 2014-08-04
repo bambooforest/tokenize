@@ -1,5 +1,5 @@
-tokenize
-========
+tokenizer
+=========
 
 Orthographic profile tokenization tools, includes:
 
@@ -8,3 +8,4 @@ Orthographic profile tokenization tools, includes:
 - environments.py - Get character environments given a list of words and a target character.
 - graphemes.py - Create an initial orthography profile of Unicode grapheme clusters
 - tokenizer.py - Module for graphemeic and orthographic tokenization with orthography profiles.
+- ipa.csv - Data file that encodes Unicode IPA and some extra symbols (used in PHOIBLE)
