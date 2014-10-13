@@ -89,7 +89,7 @@ r,r,114,consonant,
 ɹ,ɹ,633,consonant,
 ʴ,ʴ,692,diacritic,rhotacized
 ɺ,ɺ,634,consonant,
-ɺ̢,ɺ̢,802,diacritic,COMBINING RETROFLEX HOOK BELOW
+̢,ɺ̢,802,diacritic,COMBINING RETROFLEX HOOK BELOW
 ɻ,ɻ,635,consonant,
 ɽ,ɽ,637,consonant,
 ɾ,ɾ,638,consonant,
@@ -116,7 +116,7 @@ x,x,120,consonant,
 ̆,x̆,774,diacritic,extra-short
 ̊,x̊,778,diacritic,voiceless (use if character has descender)
 ̈,ẍ,776,diacritic,centralized
-̃,x̃,771,consonant,nasalized
+̃,x̃,771,diacritic,nasalized
 ̚,x̚,794,diacritic,not audibly released
 ̽,x̽,829,diacritic,mid-centralized
 ̘,x̘,792,diacritic,advanced tongue root
@@ -147,9 +147,9 @@ z,z,122,consonant,
 ʑ,ʑ,657,consonant,
 ʒ,ʒ,658,consonant,
 ʔ,ʔ,660,consonant,
-ʼ,ʼ,700,consonant,ejective
+ʼ,ʼ,700,diacritic,ejective
 ʕ,ʕ,661,consonant,
-ˤ,ˤ,740,consonant,pharyngealized
+ˤ,ˤ,740,diacritic,pharyngealized
 ʡ,ʡ,673,consonant,
 ʢ,ʢ,674,consonant,
 ǀ,ǀ,448,consonant,
@@ -161,3 +161,19 @@ z,z,122,consonant,
 θ,θ,952,consonant,
 χ,χ,967,consonant,
 ᶣ,ᶣ,7587,diacritic,labio-palatal offglide
+̋,ő,779,diacritic,extra high tone
+́,ó,769,diacritic,high tone
+̄,ō,772,diacritic,mid tone
+̀,ò,768,diacritic,low tone
+̏,ȍ,783,diacritic,extra low tone
+̌,ǒ,780,diacritic,rising tone
+̂,ô,770,diacritic,falling tone
+᷄,o᷄,7620,diacritic,high rising tone
+᷅,o᷅,7621,diacritic,low rising tone
+᷈,o᷈,7624,diacritic,rising-falling tone
+↗,↗,8599,tone,global rise
+↘,↘,8600,tone,global fall
+|,|,124,suprasegmental,minor (foot) group
+‖,‖,8214,suprasegmental,major (intonantion) group
+.,.,46,suprasegmental,syllable break
+‿,‿,8255,suprasegmental,linking (absence of a break)
