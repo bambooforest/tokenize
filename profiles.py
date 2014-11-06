@@ -1,7 +1,6 @@
 """
 Create (initial) orthography profiles. Input should be UTF-8 plain text. Use Py 3.
 """
-
 import sys
 import collections
 import unicodedata
@@ -12,11 +11,13 @@ def create_profiles(path):
     infile = open(path, "r")
     characters = collections.Counter()
     graphemes = collections.Counter()
+    
     grapheme_pattern = re.compile("\X", re.UNICODE)
     for line in infile:
         line = line.strip()
         line = unicodedata.normalize("NFD", line)
-        # line = line.replace(" ", "") # todo: all white space
+        # remove white space?
+        # line = line.replace(" ", "")
         characters.update(line)
         print(characters)
         graphs = grapheme_pattern.findall(line)
@@ -35,18 +36,3 @@ def create_profiles(path):
 
 if __name__=="__main__":
     create_profiles(sys.argv[1])
-
-
-
-"""
-def get_character_environments(self, char, string):
-environs = {}
-string = "# "+string+" #"
-chars = string.split()
-environ_index = chars.index(char)
-environ = chars[environ_index-1]+"_"+chars[environ]+"_"+chars[environ+1]
-if not environ in environs:
-environs[environ] = 1
-else:
-environs[environ] += 1
-"""
